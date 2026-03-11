@@ -6,8 +6,6 @@ Planova (the “App”) is a personal finance, habits, and planning application 
 
 This Privacy Policy explains what information is processed, why, and what choices you have.
 
-> **Important:** This document is a template filled for the current Planova architecture (Flutter + Drift + Firebase + AI). Before publishing, you must replace the placeholders in the **“Contact”** section with your real legal name/company and support email.
-
 ## 1) Who we are
 
 **Controller / Developer:** Mykyta Zhorov
