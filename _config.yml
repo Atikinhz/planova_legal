@@ -1,0 +1,44 @@
+# Jekyll configuration for Planova Legal — GitHub Pages
+title: "Planova Legal"
+description: "Official legal documents for the Planova mobile application — Privacy Policy, Terms of Use, and Account Deletion instructions."
+url: "https://atikinhz.github.io"
+baseurl: "/planova_legal"
+
+# Theme
+theme: minima
+
+# Author info
+author:
+  name: "Mykyta Zhorov"
+    email: "nikita98zh@gmail.com"
+
+    # Build settings
+    markdown: kramdown
+    highlighter: rouge
+    permalink: pretty
+
+    # Navigation
+    header_pages:
+      - index.md
+
+      # Plugins
+      plugins:
+        - jekyll-feed
+          - jekyll-seo-tag
+
+          # Exclude from build
+          exclude:
+            - README.md
+              - Gemfile
+                - Gemfile.lock
+                  - node_modules
+                    - vendor
+
+                    # SEO / Social
+                    lang: en
+                    timezone: Europe/Berlin
+
+                    # Minima theme settings
+                    minima:
+                      skin: classic
+                        social_links: []
